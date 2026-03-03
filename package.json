@@ -1,0 +1,25 @@
+{
+  "name": "crypto.html",
+  "version": "1.0.0",
+  "description": "BoostWave multi-page SMM site with secure auth",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "echo Netlify build uses static public folder",
+    "netlify:dev": "netlify dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.4.1",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "express-session": "^1.19.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.16.3"
+  }
+}
